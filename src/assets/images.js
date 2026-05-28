@@ -1,27 +1,28 @@
 // Image paths for local assets
 // Place actual image files in public/assets/ directory
+const asset = (fileName) => `${import.meta.env.BASE_URL}assets/${fileName}`;
 
 export const images = {
   // Favicon - logo transparent no text
-  logoTransparentNoText: '/assets/logotransparent_notext.png',
+  logoTransparentNoText: asset('logotransparent_notext.png'),
   
   // NavBar - TransWestern Capital Advisors logo
-  logoTransparentCapitalAdvisors: '/assets/logotransparen_capital_advisors.png',
+  logoTransparentCapitalAdvisors: asset('logotransparen_capital_advisors.png'),
   
   // Background/HomePage - Capital Advisors logo  
-  logoTransparentCapitalAdvisorsBg: '/assets/logotransparen_capital_advisors.png',
+  logoTransparentCapitalAdvisorsBg: asset('logotransparen_capital_advisors.png'),
   
   // Footer - Capital Advisors logo
-  logoTransparentCapitalAdvisorsFooter: '/assets/logotransparen_capital_advisors.png',
+  logoTransparentCapitalAdvisorsFooter: asset('logotransparen_capital_advisors.png'),
   
   // Bridge - Bridge logo
-  logoTransparentBridge: '/assets/logotransparent_bridge.png',
+  logoTransparentBridge: asset('logotransparent_bridge.png'),
   
   // Bank icon for services hub
-  logoBankTransparentNoOutline: '/assets/logo_bank_transparent_nooutline.png',
+  logoBankTransparentNoOutline: asset('logo_bank_transparent_nooutline.png'),
   
   // Team member photo
-  arielNewport: '/assets/ariel-newport.jpg'
+  arielNewport: asset('ariel-newport.jpg')
 };
 
 export const externalImages = {
