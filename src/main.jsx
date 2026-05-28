@@ -6,8 +6,12 @@ import './styles/index.css'
 // Domain redirect logic
 const currentHost = window.location.hostname;
 const targetDomain = 'transwesterncapital.com';
+const isLocalhost = currentHost === 'localhost' || currentHost === '127.0.0.1';
+const isGitHubPagesHost = currentHost.endsWith('github.io');
 
-if (currentHost !== targetDomain && currentHost !== 'localhost' && currentHost !== '127.0.0.1') {
+// Keep GitHub Pages URLs on github.io (do not redirect away),
+// but preserve redirect behavior for other non-local hosts.
+if (!isLocalhost && !isGitHubPagesHost && currentHost !== targetDomain) {
   const currentPath = window.location.pathname + window.location.search + window.location.hash;
   window.location.replace(`https://${targetDomain}${currentPath}`);
 }
