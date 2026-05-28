@@ -1,0 +1,22 @@
+/* Import global styles directly */
+@import url('./global.css');
+
+/* Test if any CSS is working */
+body {
+  background-color: #0A101A !important;
+  color: #CED4DA !important;
+}
+
+/* TEMPORARY FIX: Override animation classes to show content immediately */
+[data-animation],
+[data-animate],
+[data-animate-lines],
+[data-animate-words],
+[data-timeline-step],
+[data-animation-stagger-children] > * {
+  opacity: 1 !important;
+  transform: none !important;
+  filter: none !important;
+}
+
+/* Additional app-specific styles can be added here */
