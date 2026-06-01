@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import AnimatedElement from '../components/AnimatedElement';
 import StaggeredAnimation from '../components/StaggeredAnimation';
 import Footer from '../components/Footer';
@@ -49,12 +48,6 @@ export default function SMSPage() {
                       Since 2011, our Short Duration Government Bond Fund has served Credit Unions and other financial institutions as a source of stability, liquidity, and predictable rate sensitivity. It's an SEC-Registered 1940 Act fund, comprising 100% of government and government agency securities. The only fund built for depository institutions receiving Morningstar's 5-Star rating. It is held in the AFS classification, receives a 20% risk weighting, and offers next-day liquidity. Importantly, our fund is accepted as collateral for many wholesale funding providers.
                     </p>
                   </div>
-
-                  <p className="service-contact-cta">
-                    <Link to="/contact">
-                      Schedule a strategy discussion
-                    </Link>
-                  </p>
 
                 </div>
               </AnimatedElement>

@@ -269,88 +269,15 @@ const FinancialSolutionsPage = () => {
         <div className="container">
           <div className="services-hub-header">
             <AnimatedElement animation="fadeInUp">
-              <h2>Related Financial Solutions</h2>
+              <h2>Ancillary Services</h2>
             </AnimatedElement>
             <AnimatedElement animation="fadeInUp" delay={0.1}>
               <p className="section-subtitle">
-                Our portfolio management suite is designed to work with your existing reporting and risk management tools. BRIDGE services utilize and feed other systems that our clients are currently dependent upon and familiar with. For those that have need of specific tools, however, our Financial Solutions affiliate stands ready to fill any gaps.
+                Our portfolio management suite is designed to work with your existing reporting and risk management tools. Our Core services utilize and feed other systems that our clients are currently dependent upon and familiar with. For those that have need of specific tools, however, our Ancillary Services affiliate stands ready to fill any gaps.
               </p>
             </AnimatedElement>
           </div>
-          
-          <AnimatedElement animation="scaleIn" delay={0.2} duration={1.2}>
-            <div id="services-wheel-interactive-area" ref={servicesWheelRef}>
-              <div id="wheel" ref={wheelRef}>
-                <div className="wheel-rotation" ref={wheelRotationRef}>
-                  <div className="services-ring"></div>
-                </div>
-                <div className="hub" ref={hubRef}>
-                  <img 
-                    src={images.logoBankTransparentNoOutline}
-                    alt="Financial Solutions Hub Icon - Bank Building"
-                  />
-                </div>
-              </div>
-            </div>
-          </AnimatedElement>
-          
-          <AnimatedElement animation="fadeInUp" delay={0.4}>
-            <div className="services-hub-cta">
-              <a href="/financial-solutions" className="btn-primary">Explore All Financial Solutions <i className="fas fa-arrow-right"></i></a>
-            </div>
-          </AnimatedElement>
-        </div>
-      </section>
 
-      <header className="financial-solutions-hero">
-        <div className="container">
-          <AnimatedElement animation="fadeInUp">
-            <div className="financial-solutions-hero-content">
-              <h1>Related Financial Solutions</h1>
-              <AnimatedElement animation="fadeInUp" delay={0.3}>
-                <p>
-                  Architecting your institution's resilience and growth through proven and trusted advisory services that address the complex challenges and strategic imperatives of modern financial institutions.
-                </p>
-              </AnimatedElement>
-              {/* "Explore Our Solutions" Button has been removed as per the latest document */}
-            </div>
-          </AnimatedElement>
-        </div>
-      </header>
-      
-      <section id="solutions-overview" className="solutions-overview-section">
-        <div className="container">
-          {/* "Comprehensive Financial Solutions" h2 has been removed as per the latest document */}
-          <AnimatedElement animation="fadeInUp" delay={0.2}>
-            <p className="section-subtitle section-subtitle-center">
-              In today's complex financial landscape, institutions require more than isolated advice. Our integrated solutions provide a holistic view of risk, opportunity, and strategic direction.
-            </p>
-            <p className="section-subtitle section-subtitle-center">
-              Whether there is a gap in an analysis suite that needs to be filled, or an institution simply wants to consider partnering with a firm that can deliver an externally managed 360 degree investment program, our firm has supported institutions in any number of combinations of the following services over the decades.
-            </p>
-          </AnimatedElement>
-
-          {/* Outsourced CIO Section */}
-          <AnimatedElement animation="fadeInUp" delay={0.3}>
-            <div className="ocio-feature-section">
-              <div className="ocio-header">
-                <h2 className="ocio-title">Outsourced Chief Investment Officer</h2>
-              </div>
-              <p className="ocio-description large-copy-target">
-                Outsourced Chief Investment Officer (OCIO) is our comprehensive platform for delivering a robust liquidity and investment management program. Liquidity testing, ALM, deposit analysis, research, portfolio management, trading, documentation, settlement, custody, bond accounting, and reporting, are all components of the OCIO program.
-              </p>
-              <p className="ocio-description large-copy-target">
-                For many clients, they have come to trust long-standing providers of key analysis or advice, e.g. concerning ALM and interest rate risk management—an area so essential to the investment process that our OCIO prefers to work with, rather than replace, incumbent providers. Our OCIO can take that trusted perspective and execute upon it with best-in-class precision. Regardless, our clients will experience a sea change in efficiency, risk management, liquidity management, earnings, and control over their balance sheet when the resources of our OCIO are brought to bear on their behalf.
-              </p>
-              <Link to="/#contact" className="btn-primary ocio-btn">
-                Click here to schedule a briefing on OCIO <i className="fas fa-arrow-right"></i>
-              </Link>
-            </div>
-             <p className="section-subtitle section-subtitle-center" style={{marginTop: 'var(--spacing-xl)'}}>
-              Whether supporting the OCIO, or in aid of a particular need or opportunity faced by our clients, we can offer solutions that are all several decades in evolution and enhancement, and specifically calibrated to support depository institution financial management.
-            </p>
-          </AnimatedElement>
-          
           <AnimatedElement animation="fadeInUp" delay={0.3}>
             <div className="solutions-tabs">
               <button 
@@ -404,6 +331,23 @@ const FinancialSolutionsPage = () => {
               </button>
             </div>
           </AnimatedElement>
+          
+          <AnimatedElement animation="scaleIn" delay={0.2} duration={1.2}>
+            <div id="services-wheel-interactive-area" ref={servicesWheelRef}>
+              <div id="wheel" ref={wheelRef}>
+                <div className="wheel-rotation" ref={wheelRotationRef}>
+                  <div className="services-ring"></div>
+                </div>
+                <div className="hub" ref={hubRef}>
+                  <img 
+                    src={images.logoBankTransparentNoOutline}
+                    alt="Financial Solutions Hub Icon - Bank Building"
+                  />
+                </div>
+              </div>
+            </div>
+          </AnimatedElement>
+          
         </div>
       </section>
       
