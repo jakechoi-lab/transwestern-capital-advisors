@@ -64,9 +64,8 @@ const NavBar = () => {
   const navItems = [
     { title: 'Home', path: '/' },
     { title: 'Core Solutions', path: '/separately-managed-strategies' },
-    { title: 'Ancillary Services',  path: '/investment-portfolio-advisory' },
     {
-      title: 'Financial Solutions',
+      title: 'Ancillary Services',
       path: '/financial-solutions',
       dropdown: [
         { title: 'CECL Modeling',                 hash: '#cecl-modeling' },

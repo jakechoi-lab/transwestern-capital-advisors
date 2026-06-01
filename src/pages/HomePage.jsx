@@ -420,7 +420,7 @@ const HomePage = () => {
               </h1>
             </AnimatedElement>
             <AnimatedElement animation="fadeInUp" delay={0.3} duration={0.8}>
-              <p className="hero-subtitle">
+              <p className="hero-subtitle large-copy-target">
                 We provide our financial institution clients with world-class fixed income solutions and advanced risk management, tailored to address the specific needs and goals of each. TransWestern was formed in 2005, built upon decades of capital markets and banking experience. Today we harness future-forward technology, and serve with an unwavering commitment to client partnership. This is financial evolution.
               </p>
             </AnimatedElement>

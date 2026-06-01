@@ -83,6 +83,7 @@
       h5 { font-size: 28px; font-weight: 600; line-height: 1.3; }
       h6 { font-size: 28px; font-weight: 600; line-height: 1.3; }
       p, li, label, input, textarea, address, blockquote { font-size: 18px; line-height: 1.7; }
+      .large-copy-target { font-size: 1.5rem !important; line-height: 1.65; }
       
       .container {
         width: 100%; max-width: var(--max-width); margin-left: auto; margin-right: auto;
@@ -573,7 +574,7 @@
       }
       .mission-bg .mission-content p {
         font-family: var(--font-serif);
-        font-size: clamp(1.15rem, 1.9vw, 1.65rem);
+        font-size: 1.5rem !important;
         line-height: 1.65;
         color: var(--apex-white);
         margin: 0;
@@ -584,7 +585,7 @@
       .purpose-content { display: grid; grid-template-columns: 1fr; gap: var(--spacing-xl); align-items: center; }
       @media (min-width: 992px) { .purpose-content { grid-template-columns: 1fr 1fr; gap: var(--spacing-xxl); } .purpose-text { order: 1; } .purpose-visual { order: 2; } }
       .purpose-text h2 { color: var(--apex-white); }
-      .purpose-text p { color: var(--apex-grey-light); margin-bottom: var(--spacing-md); font-size: 1.1rem;}
+      .purpose-text p { color: var(--apex-grey-light); margin-bottom: var(--spacing-md); font-size: 1.5rem;}
       .purpose-visual img { border-radius: var(--radius); box-shadow: 0 8px 20px rgba(var(--apex-blue-deep-rgb), 0.25); }
       
       .bridge-teaser { 
@@ -975,7 +976,7 @@
         border: 1px solid rgba(var(--apex-blue-primary-rgb),0.6);
       }
       .fund-info-content h3 { color: var(--apex-white); margin-bottom: var(--spacing-sm); }
-      .fund-info-content p { color: var(--apex-grey-light); margin-bottom: var(--spacing-md); font-size: 1.1rem; }
+      .fund-info-content p { color: var(--apex-grey-light); margin-bottom: var(--spacing-md); font-size: 1.5rem; }
       .fund-info-content .btn-primary {
         margin-top: var(--spacing-sm); background-color: var(--apex-blue-highlight);
         border-color: var(--apex-blue-highlight);
@@ -2831,25 +2832,6 @@
 }
 
 .core-solutions-page .service-subsection.card-style p {
-  font-size: clamp(1.1rem, 1.65vw, 1.28rem);
-  line-height: 1.85;
-}
-
-/* Ancillary Services readability tuning for browser view */
-.ancillary-services-page .service-icon-header h2 {
-  font-size: clamp(2.3rem, 3.2vw, 3.25rem);
-}
-
-.ancillary-services-page .service-lead-text {
-  font-size: clamp(1.28rem, 2.1vw, 1.62rem);
-}
-
-.ancillary-services-page .subsection-title {
-  font-size: clamp(1.6rem, 2.4vw, 2.2rem);
-}
-
-.ancillary-services-page .service-subsection.card-style p,
-.ancillary-services-page .service-subsection.card-style li {
   font-size: clamp(1.1rem, 1.65vw, 1.28rem);
   line-height: 1.85;
 }

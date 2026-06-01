@@ -35,8 +35,7 @@ const Footer = () => {
         <nav className="footer-links-nav" aria-label="Footer navigation">
           <ul className="footer-links">
             <li><Link to="/separately-managed-strategies">Separately Managed Strategies</Link></li>
-            <li><Link to="/investment-portfolio-advisory">Investment Portfolio Advisory</Link></li>
-            <li><Link to="/financial-solutions">Financial Solutions</Link></li>
+            <li><Link to="/financial-solutions">Ancillary Services</Link></li>
             <li><Link to="/bridge-platform">BRIDGE Platform</Link></li>
             <li><Link to="/fund-information">Fund</Link></li>
             <li><a href="#purpose" onClick={(e) => handleAnchorClick(e, '#purpose')}>About Us</a></li>

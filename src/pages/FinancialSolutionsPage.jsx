@@ -334,13 +334,12 @@ const FinancialSolutionsPage = () => {
           <AnimatedElement animation="fadeInUp" delay={0.3}>
             <div className="ocio-feature-section">
               <div className="ocio-header">
-                <i className="fas fa-crown ocio-icon"></i>
                 <h2 className="ocio-title">Outsourced Chief Investment Officer</h2>
               </div>
-              <p className="ocio-description">
+              <p className="ocio-description large-copy-target">
                 Outsourced Chief Investment Officer (OCIO) is our comprehensive platform for delivering a robust liquidity and investment management program. Liquidity testing, ALM, deposit analysis, research, portfolio management, trading, documentation, settlement, custody, bond accounting, and reporting, are all components of the OCIO program.
               </p>
-              <p className="ocio-description">
+              <p className="ocio-description large-copy-target">
                 For many clients, they have come to trust long-standing providers of key analysis or advice, e.g. concerning ALM and interest rate risk management—an area so essential to the investment process that our OCIO prefers to work with, rather than replace, incumbent providers. Our OCIO can take that trusted perspective and execute upon it with best-in-class precision. Regardless, our clients will experience a sea change in efficiency, risk management, liquidity management, earnings, and control over their balance sheet when the resources of our OCIO are brought to bear on their behalf.
               </p>
               <Link to="/#contact" className="btn-primary ocio-btn">
